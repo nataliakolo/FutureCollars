@@ -1,0 +1,432 @@
+$ git log -p piosenka.txt
+commit 5400221476b3331b7e58fde9f1ee8f96b73492ee (HEAD -> master)
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 18:11:05 2023 +0200
+
+    zmienilam refren w piosence
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 397ddcd..1a30cf4 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -3,7 +3,7 @@ refren_1.txt
+ zwrotka_2.txt
+ refren_2.txt
+ zwrotka_3.txt
+-refren_3.txt
++refren_1.txt
+ zwrotka_4.txt
+
+
+
+commit 258cafb9a062b25115e22d10ae9d51595ad2bd19
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:58:52 2023 +0200
+
+    wprowadzilam zmiany w piosence
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 8e2f67e..397ddcd 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,48 +1,11 @@
+-[Verse 1]
+-Now if you can stand
+-I would like to take you by the hand, yeah
+-And go for a walk
+-Past people as they go to work
+-Let's get out of this place before
+-They tell us that we've just died, oh
++zwrotka_1.txt
++refren_1.txt
++zwrotka_2.txt
++refren_2.txt
++zwrotka_3.txt
++refren_3.txt
++zwrotka_4.txt
+
+-[Chorus]
+-Move, move quick, you've gotta move
+-Come on it's through, come on it's time
+-Oh, look at you, you looking so confused
+-Just what did you lose? Oh
+
+-[Verse 2]
+-If you can make an order
+-Could you get me one?
+
+natal@DESKTOP-0D40494 MINGW64 ~/Desktop/lekcja_1 (master)
+$ git log -p piosenka.txt
+commit 5400221476b3331b7e58fde9f1ee8f96b73492ee (HEAD -> master)
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 18:11:05 2023 +0200
+
+    zmienilam refren w piosence
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 397ddcd..1a30cf4 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -3,7 +3,7 @@ refren_1.txt
+ zwrotka_2.txt
+ refren_2.txt
+ zwrotka_3.txt
+-refren_3.txt
++refren_1.txt
+ zwrotka_4.txt
+
+
+
+commit 258cafb9a062b25115e22d10ae9d51595ad2bd19
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:58:52 2023 +0200
+
+    wprowadzilam zmiany w piosence
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 8e2f67e..397ddcd 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,48 +1,11 @@
+-[Verse 1]
+-Now if you can stand
+-I would like to take you by the hand, yeah
+-And go for a walk
+-Past people as they go to work
+-Let's get out of this place before
+-They tell us that we've just died, oh
++zwrotka_1.txt
++refren_1.txt
++zwrotka_2.txt
++refren_2.txt
++zwrotka_3.txt
++refren_3.txt
++zwrotka_4.txt
+
+-[Chorus]
+-Move, move quick, you've gotta move
+-Come on it's through, come on it's time
+-Oh, look at you, you looking so confused
+-Just what did you lose? Oh
+
+-[Verse 2]
+-If you can make an order
+-Could you get me one?
+-Two sugars would be great
+-Cause I'm fading fast and it's nearly dawn
+-If they knocked down this place, this place
+-It'd still look much better than you, oh now
+
+-[Chorus]
+-Move, move quick, you've gotta move
+-Come on it's through, come on it's time
+-Oh, look at you, you looking so confused
+-Just what did you lose? Oh
+-It's OK, it's just your mind
+
+-[Verse 3]
+-If we get through this alive
+-I'll meet you next week, same place, same time, oh
+-
+-[Chorus]
+-Move, move quick, you've gotta move
+-Come on it's through, come on it's time
+-Oh, look at you, you looking so confused
+-Just what did you lose? Oh
+-
+-[Verse 4]
+-That's what you get from clubbing it
+-You can't go home and go to bed
+-Because it hasn't worn off yet
+-And now it's morning
+-There's only one place we can go
+-It's 'round the corner in Soho
+-Where other broken people go
+-Let's go
+\ No newline at end of file
+
+commit 431dd81039b67c84e00b08cbf096e91f6e955965
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:24:20 2023 +0200
+
+    dodalam piosenke
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..8e2f67e
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,48 @@
++[Verse 1]
++Now if you can stand
++I would like to take you by the hand, yeah
++And go for a walk
++Past people as they go to work
++Let's get out of this place before
++They tell us that we've just died, oh
++
++[Chorus]
++Move, move quick, you've gotta move
++Come on it's through, come on it's time
++Oh, look at you, you looking so confused
++Just what did you lose? Oh
++
++[Verse 2]
++If you can make an order
++Could you get me one?
++Two sugars would be great
++Cause I'm fading fast and it's nearly dawn
++If they knocked down this place, this place
++It'd still look much better than you, oh now
++
++[Chorus]
++Move, move quick, you've gotta move
++Come on it's through, come on it's time
++Oh, look at you, you looking so confused
++Just what did you lose? Oh
++It's OK, it's just your mind
++
++[Verse 3]
++If we get through this alive
++I'll meet you next week, same place, same time, oh
++
++[Chorus]
++Move, move quick, you've gotta move
++Come on it's through, come on it's time
++Oh, look at you, you looking so confused
++Just what did you lose? Oh
++
++[Verse 4]
++That's what you get from clubbing it
++You can't go home and go to bed
++Because it hasn't worn off yet
++And now it's morning
++There's only one place we can go
++It's 'round the corner in Soho
++Where other broken people go
++Let's go
+\ No newline at end of file
+
+$ git log -p refren_1.txt
+commit ced294ae03bd74d02e0144360af9586bacd7dd09
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 18:03:50 2023 +0200
+
+    Revert "usunelam ostatni wers w refren 1"
+
+    This reverts commit f5e777ea08159cbdacfb6314ba97b27e596627b6.
+
+diff --git a/refren_1.txt b/refren_1.txt
+index 2e44ada..7f5c5b3 100644
+--- a/refren_1.txt
++++ b/refren_1.txt
+@@ -2,3 +2,4 @@
+ Move, move quick, you've gotta move
+ Come on it's through, come on it's time
+ Oh, look at you, you looking so confused
++Just what did you lose? Oh
+\ No newline at end of file
+
+commit f5e777ea08159cbdacfb6314ba97b27e596627b6
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 18:01:55 2023 +0200
+
+    usunelam ostatni wers w refren 1
+
+diff --git a/refren_1.txt b/refren_1.txt
+index 7f5c5b3..2e44ada 100644
+--- a/refren_1.txt
++++ b/refren_1.txt
+@@ -2,4 +2,3 @@
+ Move, move quick, you've gotta move
+ Come on it's through, come on it's time
+ Oh, look at you, you looking so confused
+-Just what did you lose? Oh
+\ No newline at end of file
+
+commit 199f4e238006113b667f1873cfd62a7587c2905c
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:34:27 2023 +0200
+
+    dodalam refren 1
+
+diff --git a/refren_1.txt b/refren_1.txt
+new file mode 100644
+index 0000000..7f5c5b3
+--- /dev/null
++++ b/refren_1.txt
+@@ -0,0 +1,5 @@
++[Chorus]
++Move, move quick, you've gotta move
++Come on it's through, come on it's time
++Oh, look at you, you looking so confused
++Just what did you lose? Oh
+\ No newline at end of file
+
+$ git log -p refren_2.txt
+commit 5f61ed78f3aadaceaa0d1b74eeed28a1491f1b5d
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:41:51 2023 +0200
+
+    dodalam refren 2
+
+diff --git a/refren_2.txt b/refren_2.txt
+new file mode 100644
+index 0000000..e7094a7
+--- /dev/null
++++ b/refren_2.txt
+@@ -0,0 +1,6 @@
++[Chorus]
++Move, move quick, you've gotta move
++Come on it's through, come on it's time
++Oh, look at you, you looking so confused
++Just what did you lose? Oh
++It's OK, it's just your mind
+\ No newline at end of file
+ $ git log -p zwrotka_1.txt
+commit 0cc52424044d7e5d74fe12dcdad82988ea0cc4a2
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:30:18 2023 +0200
+
+    dodalam zwrotke 1
+
+diff --git a/zwrotka_1.txt b/zwrotka_1.txt
+new file mode 100644
+index 0000000..8ada761
+--- /dev/null
++++ b/zwrotka_1.txt
+@@ -0,0 +1,7 @@
++[Verse 1]
++Now if you can stand
++I would like to take you by the hand, yeah
++And go for a walk
++Past people as they go to work
++Let's get out of this place before
++They tell us that we've just died, oh
+\ No newline at end of file
+
+$ git log -p zwrotka_2.txt
+commit 8ad2c8465baf80bd9d8dfcec2d5a8cb8d4782495
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:36:14 2023 +0200
+
+    dodalam zwrotke 2
+
+diff --git a/zwrotka_2.txt b/zwrotka_2.txt
+new file mode 100644
+index 0000000..d3d9ee3
+--- /dev/null
++++ b/zwrotka_2.txt
+@@ -0,0 +1,7 @@
++[Verse 2]
++If you can make an order
++Could you get me one?
++Two sugars would be great
++Cause I'm fading fast and it's nearly dawn
++If they knocked down this place, this place
++It'd still look much better than you, oh now
+\ No newline at end of file 
+
+$ git log -p zwrotka_3.txt
+commit 681f64ac264652f34c8f2ac01b7e7fe9e17d8ab1
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:47:28 2023 +0200
+
+    dodalam zwrotke 3
+
+diff --git a/zwrotka_3.txt b/zwrotka_3.txt
+new file mode 100644
+index 0000000..69eaa28
+--- /dev/null
++++ b/zwrotka_3.txt
+@@ -0,0 +1,3 @@
++[Verse 3]
++If we get through this alive
++I'll meet you next week, same place, same time, oh
+\ No newline at end of file
+ $ git log -p zwrotka_4.txt
+commit 3ee5a8e0a743ab911f88a69127c59fa567e97e47
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:50:06 2023 +0200
+
+    dodalam zwrotke 4
+
+diff --git a/zwrotka_4.txt b/zwrotka_4.txt
+new file mode 100644
+index 0000000..7afdd2e
+--- /dev/null
++++ b/zwrotka_4.txt
+@@ -0,0 +1,9 @@
++[Verse 4]
++That's what you get from clubbing it
++You can't go home and go to bed
++Because it hasn't worn off yet
++And now it's morning
++There's only one place we can go
++It's 'round the corner in Soho
++Where other broken people go
++Let's go
+\ No newline at end of file
+
+natal@DESKTOP-0D40494 MINGW64 ~/Desktop/lekcja_1 (master)
+$ git log
+commit 5400221476b3331b7e58fde9f1ee8f96b73492ee (HEAD -> master)
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 18:11:05 2023 +0200
+
+    zmienilam refren w piosence
+
+commit ced294ae03bd74d02e0144360af9586bacd7dd09
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 18:03:50 2023 +0200
+
+    Revert "usunelam ostatni wers w refren 1"
+
+    This reverts commit f5e777ea08159cbdacfb6314ba97b27e596627b6.
+
+commit f5e777ea08159cbdacfb6314ba97b27e596627b6
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 18:01:55 2023 +0200
+
+    usunelam ostatni wers w refren 1
+
+commit 258cafb9a062b25115e22d10ae9d51595ad2bd19
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:58:52 2023 +0200
+
+    wprowadzilam zmiany w piosence
+
+commit 3ee5a8e0a743ab911f88a69127c59fa567e97e47
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:50:06 2023 +0200
+
+    dodalam zwrotke 4
+
+commit ee58ea1a0d4ad62ea988d38955e588595141c1fa
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:48:53 2023 +0200
+
+    dodalam refren 3
+
+commit 681f64ac264652f34c8f2ac01b7e7fe9e17d8ab1
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:47:28 2023 +0200
+
+    dodalam zwrotke 3
+
+commit 5f61ed78f3aadaceaa0d1b74eeed28a1491f1b5d
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:41:51 2023 +0200
+
+    dodalam refren 2
+
+commit 8ad2c8465baf80bd9d8dfcec2d5a8cb8d4782495
+Author: Natalia <you@example.com>
+Date:   Sat Oct 28 17:36:14 2023 +0200
+
+    dodalam zwrotke 2
+:
+
+
+
+
