@@ -1,0 +1,78 @@
+wychowawca
+Krzysztof Baczynski
+1a
+1b
+2a
+
+wychowawca
+Jan Brzechwa
+1c
+2b
+
+nauczyciel
+Jan Dlugosz
+Język Polski
+1a
+1b
+1c
+
+nauczyciel
+Maria Konopnicka
+Język Polski
+2a
+2b
+2c
+
+nauczyciel
+Stanislaw Lem
+Fizyka
+2a
+2b
+2c
+2d
+
+nauczyciel
+Henryk Sienkiewicz
+Historia
+1a
+1b
+1d
+2a
+2b
+
+uczen
+Aleksander Fredro
+1b
+uczen
+Witold Gombrowicz
+1b
+uczen
+Zbigniew Herbert
+1c
+uczen
+Hanna Krall
+2a
+uczen
+Zygmunt Krasinski
+2a
+uczen
+Jan Andrzej Morsztyn
+2a
+uczen
+Malgorzata Musierowicz
+2b
+uczen
+Cyprian Kamil Norwid
+2b
+uczen
+Eliza Orzeszkowa
+1a
+Juliusz Slowacki
+2c
+uczen
+Julian Tuwim
+2c
+uczen
+Stanislaw Wyspianski
+2c
+koniec
