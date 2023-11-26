@@ -1,0 +1,32 @@
+{
+  "saldo": 21000,
+  "magazyn": [
+    {
+      "id": 0,
+      "nazwa": "rower",
+      "ilosc": 15,
+      "cena_jednostkowa": 1000
+    },
+    {
+      "id": 1,
+      "nazwa": "hulajnoga",
+      "ilosc": 6,
+      "cena_jednostkowa": 500
+    }
+  ],
+  "historia": [
+    "dodano  15000 zl",
+    "dodano  do magazynu 15 rowerow",
+    "dodano do magazynu 8 hulajnog",
+    "dodano 1000 do salda",
+    "sprzedano 2 hulajnoga za 500 z\u0142 ",
+    "sprzedano 2 hulajnoga za 500 z\u0142 ",
+    "zakupiono 2 rower za 1000 z\u0142 ",
+    "aktualny stan konta to 16000",
+    "na magazynie dla rower jest sztuk: 17",
+    "dodano 2000 zl",
+    "sprzedano 1 rower za 1000 z\u0142 ",
+    "sprzedano 1 rower za 1000 z\u0142 ",
+    "dodano 1000 zl "
+  ]
+}
