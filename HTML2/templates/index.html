@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1>Wybierz kraj</h1>
+    <h4>wybierz jeden skrót kraju:  USA podaj US, Kanada podaj CA, Wielka Brytania podaj GB, Australia podaj AU, Niemcy podaj DE</h4>
+    <form method="post">
+
+        <label for="color">Kraj</label>
+        <br>
+        <select name="colour" >
+          <option value="{{colours[0]}}" selected>{{colours[0]}}</option>
+          {% for colour in colours[1:] %}
+            <option value="{{colour}}">{{colour}}</option>
+          {% endfor %}
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+
+    {% for message in messages %}
+        <div class='message'>
+            <h3>{{ message['title'] }}</h3>
+            {% for item in message['content'] %}
+                <p>{{ item }}</p>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endblock %}
